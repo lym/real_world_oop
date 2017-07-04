@@ -6,6 +6,8 @@ from number_card import NumberCard
 from suit import Clubs, Diamonds, Hearts, Spades
 
 class Deck(object):
+    """ This class is an abstraction of a deck of cards.
+    """
     def __init__(self):
         self.aces = [
             AceCard(1, Clubs),
