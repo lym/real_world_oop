@@ -47,7 +47,7 @@ if __name__ == '__main__':
     print('Number of cards in deck is: {}'.format(
         len(deck.cards)
     ))
-    print(deck)
+    print('Initial deck:\n {}'.format(deck))
     deck.shuffle()
-    print(deck)
-    deck.shuffle()
+    print('After shufflin:\n {}'.format(deck))
+    # deck.shuffle()
