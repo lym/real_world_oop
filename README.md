@@ -19,3 +19,6 @@ This is enabled by specifying all the classes in their own modules
 ### Polymorphism
 The right `_points()` method is always excecuted depending on the
 context.
+
+## Usage
+    $ python deck.py
