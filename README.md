@@ -15,3 +15,7 @@ preceded by underscores for example the Deck class' `_gen_numbered_cards()`, and
 ### Reuse
 This is enabled by specifying all the classes in their own modules
 (modules) so they can be easily usable in isolation
+
+### Polymorphism
+The right `_points()` method is always excecuted depending on the
+context.
